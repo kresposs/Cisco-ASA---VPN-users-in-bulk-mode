@@ -18,12 +18,12 @@ def main():
     groupPolicy = input()
 
 
-    with open("C:\\Users\\summam\\users.txt") as f:
+    with open("C:\\Users\\[your name]\\your-file.txt") as f:
         usersList = f.read()
 
     usersList = usersList.split("\n")
 
-    with open("C:\\Users\\summam\\password.txt") as f:
+    with open("C:\\Users\\[your name]\\your-file.txt") as f:
         passwordsList = f.read()
 
     passwordsList = passwordsList.split("\n")
